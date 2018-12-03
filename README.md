@@ -1,3 +1,3 @@
 # Dotfiles
 
-Minimal configuration for fast setup
+Storing most basic dotfiles.
