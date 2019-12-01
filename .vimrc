@@ -36,6 +36,7 @@ set shiftwidth=4
 set expandtab
 set background=dark
 set mouse=a
+set ruler
 set ttymouse=xterm2
 set splitbelow
 set splitright
