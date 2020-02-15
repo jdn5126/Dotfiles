@@ -1,3 +1,5 @@
+" Vim Customizations
+"
 " Vundle Setup
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -30,6 +32,7 @@ syntax on
 set ignorecase
 set nu
 set nowrap
+set hlsearch
 set sidescroll=1
 set tabstop=4
 set shiftwidth=4
@@ -66,9 +69,9 @@ vnoremap // y/<C-R>"<CR>
 "python-mode config
 let g:pymode_python = 'python'
 let g:pymode_lint_checkers = []
-let g:pymode_options_max_line_length = 85
+let g:pymode_options_max_line_length = 120
 let g:pymode_trim_whitespaces = 0
-let g:pymode_indent = 3
+let g:pymode_indent = 4
 
 " NerdTree settings
 map <C-n> :NERDTreeToggle<CR>
