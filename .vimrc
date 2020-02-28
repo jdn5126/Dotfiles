@@ -33,6 +33,7 @@ set ignorecase
 set nu
 set nowrap
 set hlsearch
+set incsearch
 set sidescroll=1
 set tabstop=4
 set shiftwidth=4
