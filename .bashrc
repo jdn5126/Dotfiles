@@ -18,7 +18,7 @@ return_color() {
 }
 
 __prompt_command() {
-   PS1="${CYAN}[\h]${GREEN}[\t]${CYAN}[\w]`return_color`${END_COLOR} \[$(tput sgr0)\]"
+   PS1="${GREEN}\w ${CYAN}[\t]`return_color`${END_COLOR} \[$(tput sgr0)\]"
 }
 
 # Environment Variables

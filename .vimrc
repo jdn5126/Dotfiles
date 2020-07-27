@@ -29,6 +29,8 @@ filetype plugin indent on    " required
 
 " Put your own customizations below
 syntax on
+set autoindent
+set smartindent
 set ignorecase
 set nu
 set nowrap
